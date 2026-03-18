@@ -1,6 +1,6 @@
 ---
 name: ljg-plain
-description: "Cognitive atom: Plain (白). Rewrites any content so a smart 12-year-old groks it. Structure-free — form follows content. Use when user says '白话说', '说人话', '解释一下', 'plain', 'grok'. Do NOT use for structure extraction (use ljg-split), compression (use ljg-squeeze), or collision (use ljg-bump)."
+description: "Cognitive atom: Plain (白). Rewrites any content so a smart 12-year-old groks it. Structure-free — form follows content. Use when user says '白话说', '说人话', '解释一下', 'plain', 'grok'."
 user_invocable: true
 version: "5.0.0"
 ---
@@ -71,11 +71,7 @@ version: "5.0.0"
 
 URL → WebFetch | 文本 → 直接用 | 文件路径 → Read | 概念 → 直接解释 | 书名/论文名 → WebSearch
 
-### 2. 想
-
-读者第一次碰到这个概念，在哪里皱眉？皱眉处就是要攻破的地方。这一步是给自己的思考，不一定出现在文章里。
-
-### 3. 写
+### 2. 写
 
 形式自由。从工具箱里选最适合这个主题的方式，也可以不选——如果有更好的写法，用它。
 
@@ -85,7 +81,7 @@ URL → WebFetch | 文本 → 直接用 | 文件路径 → Read | 概念 → 直
 - 结构标签（`* 类比` / `* 裂缝` 等）
 - 指向写作过程的元评论（「打个比方」「接下来我们讨论」）
 
-### 4. 过红线
+### 3. 过红线
 
 逐条扫红线清单。额外检查：
 
@@ -95,9 +91,9 @@ URL → WebFetch | 文本 → 直接用 | 文件路径 → Read | 概念 → 直
 - 查跳跃——每步逻辑可追？前句说 A，后句跳到 B→补桥
 - 查译感——动宾搭配中文天然吗？不自然→换动词或换句式
 
-扫完列修改清单（哪句触发什么，改前→改后），确认后进入下一步。清单不写入文件。
+扫完列修改清单（哪句触发什么，改前→改后）。清单不写入文件。
 
-### 5. 生成 Org 文件
+### 4. 生成 Org 文件
 
 按 Denote 规范获取时间戳，写出文件头 + 正文，存入 `~/Documents/notes/`。
 
